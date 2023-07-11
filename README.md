@@ -12,6 +12,7 @@ git clone https://github.com/aruelu/mykiwi.git
 パスワードは変更してビルドして下さい。
 
 - test-gui-01：./kiwi/build-tests/x86/tumbleweed/test-image-diskを元にkiwiファイルを修正
+- test-gui-02：gnomeデスクトップ
 
 ## ビルド方法
 ```
