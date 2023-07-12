@@ -37,6 +37,7 @@ suseSetupProduct
 suseInsertService sshd
 suseInsertService grub_config
 suseInsertService dracut_hostonly
+suseInsertService NetworkManager
 
 #======================================
 # Setup default target, multi-user
