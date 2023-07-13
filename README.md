@@ -13,6 +13,7 @@ git clone https://github.com/aruelu/mykiwi.git
 
 - test-gui-01：./kiwi/build-tests/x86/tumbleweed/test-image-diskを元にkiwiファイルを修正
 - test-gui-02：gnomeデスクトップ
+- test-gui-03：gnomeデスクトップ LIVE
 
 ## ビルド方法
 ```
