@@ -28,17 +28,8 @@
         <user password="test" home="/home/test" name="test" groups="users,sudo" pwdformat="plain" />
         <user password="root" home="/root" name="root" groups="root" pwdformat="plain"/>
     </users>
-    <repository type="rpm-md" alias="non-oss" imageinclude="true">
-        <source path=">http://download.opensuse.org/tumbleweed/repo/non-oss"/>
-    </repository>
-    <repository type="rpm-md" alias="oss" imageinclude="true">
-        <source path="http://download.opensuse.org/tumbleweed/repo/oss"/>
-    </repository>
-    <repository type="rpm-md" alias="tumbleweed" imageinclude="true">
-        <source path="http://download.opensuse.org/update/tumbleweed"/>
-    </repository>
-    <repository type="rpm-md" alias="munix9" imageinclude="true">
-        <source path="https://download.opensuse.org/repositories/home:/munix9/openSUSE_Tumbleweed"/>
+    <repository type="rpm-md">
+        <source path="obsrepositories:/"/>
     </repository>
     <packages type="image">
         <package name="bind-utils"/>
