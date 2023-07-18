@@ -11,7 +11,7 @@
         <specification>tesu gui 03 live GNOME</specification>
     </description>
     <preferences>
-        <version>0.0.1</version>
+        <version>0.0.2</version>
         <packagemanager>zypper</packagemanager>
         <locale>en_US</locale>
         <keytable>jp</keytable>
@@ -84,17 +84,74 @@
         <package name="MozillaFirefox"/>
         <package name="lightdm"/>
         <package name="lightdm-gtk-greeter"/>
-        <package name="patterns-base-x11"/>
-        <package name="patterns-yast-x11_yast"/>
-        <package name="patterns-yast-yast2_basis"/>
-        <package name="patterns-gnome-gnome_yast"/>
-        <package name="patterns-gnome-gnome"/>
-        <package name="patterns-gnome-gnome_x11"/>
-        <package name="patterns-gnome-gnome_basic"/>
-        <package name="patterns-gnome-gnome_basis"/>
-        <package name="patterns-gnome-gnome_basis_opt"/>
-        <package name="patterns-gnome-sw_management_gnome"/>
-        <package name="gnome-terminal"/>
+
+	<package name="zenity"/>
+
+	<package name="ibus-mozc"/>
+	<package name="ibus-gtk"/>
+	<package name="ibus-gtk3"/>
+	<package name="ibus-lang"/>
+	<package name="ibus-m17n"/>
+
+	<package name="gnome-extensions"/>
+
+	<package name="patterns-gnome-gnome"/>
+	<package name="patterns-gnome-gnome_x11"/>
+	<package name="gnome-session-wayland"/>
+	<package name="gsettings-backend-dconf"/>
+	<package name="patterns-base-basesystem"/>
+	<package name="patterns-base-x11"/>
+	<package name="patterns-gnome-gnome_basic"/>
+	<package name="patterns-gnome-gnome_basis"/>
+	<package name="evince"/>
+	<package name="file-roller"/>
+	<package name="gnome-calculator"/>
+	<package name="gnome-software"/>
+	<package name="gnome-system-monitor"/>
+	<package name="gnome-text-editor"/>
+	<package name="gnome-tweaks"/>
+	<package name="nautilus-extension-terminal"/>
+	<package name="nautilus-share"/>
+	<package name="pinentry-gnome3"/>
+	<package name="gnome-shell"/>
+	<package name="gnome-shell-calendar"/>
+	<package name="gnome-shell-classic"/>
+	<package name="gnome-shell-extension-desktop-icons"/>
+	<package name="gnome-shell-extensions-common"/>
+	<package name="gnome-shell-extensions-common-lang"/>
+	<package name="gnome-shell-lang"/>
+	<package name="gnome-shell-search-provider-bijiben"/>
+	<package name="gnome-shell-search-provider-contacts"/>
+	<package name="gnome-shell-search-provider-gnome-calculator"/>
+	<package name="gnome-shell-search-provider-gnome-characters"/>
+	<package name="gnome-shell-search-provider-gnome-clocks"/>
+	<package name="gnome-shell-search-provider-gnome-photos"/>
+	<package name="gnome-shell-search-provider-gnome-terminal"/>
+	<package name="gnome-shell-search-provider-gnome-weather"/>
+	<package name="gnome-shell-search-provider-nautilus"/>
+	<package name="gnome-shell-search-provider-seahorse"/>
+	<package name="libyui-ncurses-pkg16"/>
+	<package name="patterns-yast-yast2_basis"/>
+	<package name="yast2"/>
+	<package name="yast2-alternatives"/>
+	<package name="yast2-firewall"/>
+	<package name="yast2-packager"/>
+	<package name="yast2-theme"/>
+	<package name="yast2-metapackage-handler"/>
+	<package name="yast2-vm"/>
+	<package name="patterns-yast-x11_yast"/>
+	<package name="libyui-qt-pkg16"/>
+	<package name="yast2-control-center-qt"/>
+	<package name="patterns-yast-yast2_desktop"/>
+	<package name="yast2-country"/>
+	<package name="yast2-installation"/>
+	<package name="yast2-services-manager"/>
+	<package name="yast2-sysconfig"/>
+	<package name="yast2-users"/>
+	<package name="yast2-journal"/>
+	<package name="yast2-printer"/>
+	<package name="yast2-scanner"/>
+
     </packages>
     <packages type="bootstrap">
         <package name="gawk"/>
