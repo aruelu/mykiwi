@@ -13,8 +13,8 @@
     <preferences>
         <version>0.0.2</version>
         <packagemanager>zypper</packagemanager>
-        <locale>en_US</locale>
-        <keytable>jp</keytable>
+        <locale>ja_JP</locale>
+        <keytable>jp106</keytable>
         <timezone>Asia/Tokyo</timezone>
         <rpm-excludedocs>true</rpm-excludedocs>
         <rpm-check-signatures>false</rpm-check-signatures>
