@@ -29,8 +29,15 @@
         <user password="root" home="/root" name="root" groups="root" pwdformat="plain"/>
     </users>
     <repository type="rpm-md">
-        <source path="obsrepositories:/"/>
+        <source path="http://download.opensuse.org/tumbleweed/repo/oss/"/>
     </repository>
+    <repository type="rpm-md">
+        <source path="http://download.opensuse.org/tumbleweed/repo/non-oss/"/>
+    </repository>
+    <repository type="rpm-md">
+        <source path="http://download.opensuse.org/tumbleweed/repo/oss/"/>
+    </repository>
+
     <packages type="image">
         <package name="bind-utils"/>
         <package name="patterns-openSUSE-base"/>
