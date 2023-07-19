@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=setup_mykiwi
+Path=/usr/share/mykiwi
+Exec=setup_mykiwi.sh
+Icon=
+Terminal=false

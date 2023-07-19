@@ -38,3 +38,6 @@ suseInsertService NetworkManager
 # Setup default target, multi-user
 #--------------------------------------
 baseSetRunlevel 5
+
+
+
