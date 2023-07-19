@@ -93,6 +93,7 @@
         <package name="lightdm-gtk-greeter"/>
 
 	<package name="zenity"/>
+	<package name="calamares"/>
 
 	<package name="ibus-mozc"/>
 	<package name="ibus-gtk"/>
